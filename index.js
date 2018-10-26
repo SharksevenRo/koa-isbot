@@ -1,22 +1,4 @@
-module.exports = function() {
-    var BOTS = [
-        '\\+https:\\/\\/developers.google.com\\/\\+\\/web\\/snippet\\/',
-        'googlebot',
-        'baiduspider',
-        'gurujibot',
-        'yandexbot',
-        'slurp',
-        'msnbot',
-        'bingbot',
-        'facebookexternalhit',
-        'linkedinbot',
-        'twitterbot',
-        'slackbot',
-        'telegrambot',
-        'applebot',
-        'pingdom',
-        'tumblr '
-    ];
+module.exports = function(BOTS) {
     var IS_BOT_REGEXP = new RegExp('^.*(' + BOTS.join('|') + ').*$');
 
     return function*(next) {

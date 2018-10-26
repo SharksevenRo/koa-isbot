@@ -1,14 +1,14 @@
 {
-  "name": "koa-isbot",
+  "name": "@gaoding/koa-isbot",
   "version": "0.1.1",
-  "description": "koa detect googlebot, facebookbot, ...",
+  "description": "koa detect googlebot, facebookbot ...",
   "main": "index.js",
   "scripts": {
     "test": "node --harmony node_modules/.bin/nodeunit test/isbot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duyetdev/koa-isbot.git"
+    "url": "git+https://github.com/SharksevenRo/koa-isbot.git"
   },
   "keywords": [
     "koa",
@@ -26,9 +26,9 @@
   "author": "Van-Duyet Le <me@duyetdev.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duyetdev/koa-isbot/issues"
+    "url": "https://github.com/SharksevenRo/koa-isbot"
   },
-  "homepage": "https://github.com/duyetdev/koa-isbot#readme",
+  "homepage": "https://github.com/SharksevenRo/koa-isbot#readme",
   "devDependencies": {
     "koa": "^1.1.2",
     "nodeunit": "^0.9.1",
